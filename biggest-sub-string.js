@@ -6,10 +6,9 @@ for (let i = 0; i < strArray.length; i++) {
   if (noRepeatingResult.includes(strArray[i])) {
     output.push(noRepeatingResult);
     noRepeatingResult = "";
-    noRepeatingResult += strArray[i];
-  } else {
-    noRepeatingResult += strArray[i];
   }
+
+  noRepeatingResult += strArray[i];
 }
 output.push(noRepeatingResult);
 console.log(`--------SubString Array  is----------------`);
