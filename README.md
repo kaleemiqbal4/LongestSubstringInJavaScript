@@ -37,12 +37,14 @@ This JavaScript program finds the longest substring without repeating characters
 
 Given the input string:
 
-```javascript
+```javascript string is
 var strArray = "abcdefghbijklmnopaqrstuvwxyzcd";
 
 ## Result is
 
---------SubString Array is----------------
-abcdefghbijklmnopaqrstuvwxyzcd
-longest substring is : abcdefghijklmnopaqrstuvwxyz
+--------String Array is----------------
+[abcdefgh, bijklmnopaqrstuvwxyzcd]
+
+--------Resulted SubString  is----------------
+longest substring is : bijklmnopaqrstuvwxyzcd
 ```
